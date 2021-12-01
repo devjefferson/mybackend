@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_media_media",
+  "info": {
+    "displayName": "media",
+    "icon": "broom"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "attribute": {
+      "type": "richtext"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_author_authors",
+  "info": {
+    "displayName": "author",
+    "icon": "grin"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

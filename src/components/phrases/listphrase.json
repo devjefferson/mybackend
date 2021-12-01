@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_phrases_listphrases",
+  "info": {
+    "displayName": "listphrase",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "article": {
+      "type": "richtext"
+    }
+  }
+}

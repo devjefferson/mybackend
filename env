@@ -1,0 +1,6 @@
+heroku config:set DATABASE_HOST=ec2-50-16-241-192.compute-1.amazonaws.com
+heroku config:set DATABASE_PORT=5432
+heroku config:set DATABASE_NAME=d7mgnbkk3t064f
+heroku config:set DATABASE_USERNAME=bfoximmruukkky
+heroku config:set DATABASE_PASSWORD=6f5e85d4733de4c61e1fb89e0370e0ce2bb1ce1038e82e91173f25bd62047e3f
+heroku config:set DATABASE_SSL=false
