@@ -2,22 +2,21 @@
   "collectionName": "components_author_authors",
   "info": {
     "displayName": "author",
-    "icon": "grin"
+    "icon": "grin",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "name": {
       "type": "string"
     },
-    "bio": {
-      "type": "richtext"
-    },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

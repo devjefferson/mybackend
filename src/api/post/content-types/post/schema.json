@@ -23,13 +23,32 @@
       "type": "richtext",
       "required": true
     },
-    "titlePhrase": {
+    "first_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.media"
+    },
+    "title_phrase": {
       "type": "string"
     },
-    "list": {
+    "list_phrase": {
       "type": "component",
       "repeatable": true,
       "component": "phrases.listphrase"
+    },
+    "author": {
+      "type": "component",
+      "repeatable": true,
+      "component": "author.author"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
